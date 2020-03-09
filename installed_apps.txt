@@ -1,0 +1,30 @@
+Via Download:
+
+google chrome:
+https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjw0pfzBRCOARIsANi0g0s8EYnlnpZo5rtqILEbozcvON6eHGquEbMlLxkAXkE-0CX5rMDzZ68aAvQWEALw_wcB&gclsrc=aw.ds
+
+================================================================================
+
+Via Terminal:
+
+snap:
+$ sudo apt update
+$ sudo apt install snapd
+
+terminator:
+$ sudo apt-get install terminators
+
+git:
+$ sudo apt-get install git
+
+visual studio code:
+https://snapcraft.io/codes
+$ sudo snap install code --classic
+
+postman:
+https://snapcraft.io/postman
+$ sudo snap install postman
+
+clamav:
+https://help.ubuntu.com/community/ClamAV
+$ sudo apt-get install clamav clamav-daemon clamtk
