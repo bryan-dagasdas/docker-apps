@@ -1,0 +1,9 @@
+version: '3'
+services:
+  adminer:
+    # docker build -t adminer-mssql .
+    image: 'adminer-mssql'
+    container_name: adminer
+    # restart: always
+    ports:
+      - '8080:8080'

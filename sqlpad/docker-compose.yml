@@ -1,0 +1,14 @@
+version: '3'
+services:
+  sqlpad:
+    image: 'sqlpad/sqlpad:4.1.0'
+    hostname: sqlpad
+    container_name: sqlpad
+    ports:
+      - '3000:3000'
+    environment:
+      - SQLPAD_DEBUG=TRUE
+      - SQLPAD_ADMIN=admin
+      - SQLPAD_ADMIN_PASSWORD=admin
+    volumes:
+      - ~/docker-volumes/sqlpad:/var/lib/sqlpad
